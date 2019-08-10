@@ -1,9 +1,10 @@
 
+let quantidade_test
 function lidar_entrada(str){
 
     let array_srt = str.split("\n")
     // let saida = array_srt.splice(0, 1)
-    array_srt.shift()
+    quantidade_test = array_srt.shift()
     let saida_int = array_srt.map((ele) => {return parseInt(ele)});
 
     return saida_int
@@ -79,12 +80,18 @@ function usa_esquema(string){
     })
 
 
-    saida.forEach((ele,i) => {
+    for(let i=0; i<quantidade_test; i++){
+        saida
         if((i+1) == saida.length){
-            process.stdout.write(`Case #${i+1}: ${ele[0]} ${ele[1]}`)
+            process.stdout.write(`Case #${i+1}: ${saida[i][0]} ${saida[i][1]}`)
         }else{
-            process.stdout.write(`Case #${i+1}: ${ele[0]} ${ele[1]}\n`)
+            process.stdout.write(`Case #${i+1}: ${saida[i][0]} ${saida[i][1]}\n`)
+
         }
+
+    }
+    saida.forEach((ele,i) => {
+        
         
     })
     
