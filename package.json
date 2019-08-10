@@ -1,0 +1,25 @@
+{
+  "name": "google_code_jam_2019_javascript",
+  "version": "1.0.0",
+  "description": "Esse repositório consta a resolução dos desafios do Google Code Jam 2019 usando node.js e javascript.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ProfessorMarcolan/google_code_jam_2019_javascript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ProfessorMarcolan/google_code_jam_2019_javascript/issues"
+  },
+  "homepage": "https://github.com/ProfessorMarcolan/google_code_jam_2019_javascript#readme",
+  "devDependencies": {
+    "mocha": "^6.2.0"
+  }
+}
